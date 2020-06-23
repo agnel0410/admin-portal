@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { withAuthenticator } from 'aws-amplify-react';
 
 const App = () =>{
   return (
@@ -10,4 +9,4 @@ const App = () =>{
   );
 }
 
-export default withAuthenticator(App);
+export default App;
